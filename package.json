@@ -1,7 +1,10 @@
 {
   "name": "aplicativo-de-despesas",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "client": "webpack-dev-server"
+  },
   "repository": "https://github.com/soudogueto/aplicativo-de-despesa.git",
   "author": "soudogueto <lucasrupestre@hotmail.com>",
   "license": "MIT",
@@ -12,7 +15,10 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/plugin-transform-arrow-functions": "^7.8.3",
     "@babel/plugin-transform-async-to-generator": "^7.8.3",
-    "@babel/plugin-transform-object-assign": "^7.8.3"
+    "@babel/plugin-transform-object-assign": "^7.8.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "@babel/preset-env": "^7.8.4",
