@@ -1,7 +1,9 @@
+const path = require('path');
+
 module.exports = {
-   entry: './src/app.js',
+   entry: './src/app.jsx',
    output: {
-      path: require('path').join(__dirname, 'public'),
+      path: path.join(__dirname, 'public'),
       filename: 'bundle.js'
    },
    mode: "development",
@@ -11,7 +13,7 @@ module.exports = {
          test: /\.jsx?$/,
          exclude: /node_modules/
       }, {
-         teste: /\.s?css$/,
+         test: /\.s?css$/,
          use: [
             'style-loader',
             'css-loader',
