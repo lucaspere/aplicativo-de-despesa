@@ -21,6 +21,12 @@ module.exports = {
          ]
       }]
    },
+   resolve: {
+      extensions: [
+         '.js',
+         '.jsx'
+      ]
+   },
    devtool: 'cheap-module-aval-source-map',
    devServer: {
       contentBase: path.join(__dirname, 'public'),

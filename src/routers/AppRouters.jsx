@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ExpenseDashboardPage from '../components/ExpenseDashboardPage.jsx';
 
 
-const ExpenseDashboardPage = () => <h1>Teste</h1>
 const NotFoundPage = () => <h1>404</h1>
 const AppRouters = () => {
 
