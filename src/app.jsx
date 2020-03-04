@@ -1,4 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AppRouters from './routers/AppRouters.jsx'
 
-ReactDOM.render(<h1>Funcionou?</h1>, document.getElementById("root"));
+
+const app = (
+   <AppRouters />
+)
+
+
+ReactDOM.render(app, document.getElementById("root"));
